@@ -1,7 +1,7 @@
--   name: Hello World
-    hosts: web
-    tasks: 
-        -   name: Printing the text of Hello World
-            ansible.builtin.debug:
-            msg: Hello World!
-  
+- name: Hello World
+  hosts: web
+  tasks: 
+  - name: Printing the text of Hello World
+     ansible.builtin.debug:
+     msg: Hello World!
+   
