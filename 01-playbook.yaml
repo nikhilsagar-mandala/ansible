@@ -1,5 +1,5 @@
--name: Ping the test connection
+- name: Ping
   hosts: web
-  taks: 
-    -name: Ping the Server
-    ansible.builtin.ping:
+  tasks: 
+    - name: Ping the Server
+      ansible.builtin.ping:
