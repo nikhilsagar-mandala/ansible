@@ -1,0 +1,6 @@
+-name: PING
+ hosts: inventory
+ tasks:
+ -name: Ping the Server
+ ansible.buitin.ping:
+ 
